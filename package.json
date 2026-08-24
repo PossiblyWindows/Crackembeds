@@ -1,0 +1,17 @@
+{
+  "name": "embedfuck",
+  "version": "1.0.0",
+  "description": "Telegram bot for fetching streams from VidAPI, VidSrc, VidEasy, and Mapple.",
+  "main": "tg.js",
+  "scripts": {
+    "start": "node tg.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "curl-cffi": "^0.1.50"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
