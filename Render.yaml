@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: telegram-stream-bot
+    runtime: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node tg.js"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_USER_ID
+        sync: false
+        value: "7886961410"
